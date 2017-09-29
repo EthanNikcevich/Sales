@@ -1,0 +1,31 @@
+1. By making use of an example from the above scenario, distinguish between a class and an instantiation of a class.	[3]
+In this scenario, a class may be SalesPerson, while an instance of the class would be a variable that is of that class,
+in this case a specific person, such as "Dan Jones"
+
+2. By giving two examples, explain how the principles of inheritance can be incorporated into the design of this administration program.[4]
+
+3. Describe how the use of libraries can facilitate the development of programs like this company's administration program.[3]
+
+5. Complete the constructor public SalesPerson (String id),from the SalesPerson class.
+
+6. Explain why accessor methods are necessary for the SalesPerson class.
+
+7. Construct unified modelling language (UML) diagrams to clearly show the relationship between the SalesPerson and sales classes.
+Note: There is no need to include mutator or accessor methods or a constructor.	[4]
+
+8. Outline a negative effect that a future change in the design of the sales object might have on this suite of programs.	[2]
+
+9. State the output after running this code.	[4]
+
+10. Construct the method calcTotalSales ( ) , in the Sales Person class that
+calculates the total value of the sales for a specific SalesPerson object.	[5]
+
+11. By making use of any previously written methods, construct the method highest ( ) , that returns the ID of the salesperson whose sales have the largest total value.	[5]
+
+12. Construct the method addSales (Sales s, String id) , in the Main class,
+that will add a new Sales object s, to the salesperson with a specified ID.
+Note: You can assume that the ID is a valid one.	[4]
+
+13. Suggest changes that must be made to the salesperson class and/or the Sales class to allow these calculations to be made.	[3]
+
+14. Discuss the use of polymorphism that occurs in this suite of programs.	[3]
