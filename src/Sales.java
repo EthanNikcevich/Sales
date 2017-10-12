@@ -1,10 +1,15 @@
 class Sales // each object contains details of one sale
 {
-    private String itemld; // id of the item
-    private double value; // the price of one item private int quantity;
-    // the number of the items sold
+    private String itemId;
+    private double value;
+    private int quantity;
     // constructor missing
-    public doublegetValue() {
+    public Sales(String itemId, double value, int quantity){
+        this.itemId = itemId;
+        this.value = value;
+        this.quantity = quantity;
+    }
+    public double getValue() {
         return value;
     }
     public int getQuantity() {
